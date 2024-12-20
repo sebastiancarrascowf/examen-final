@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>deportivos sebastian carrasco</title>
+    <link rel="stylesheet" href="estilos.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+
+
+</head>
+
+<body>
+
+    <main class="main">
+
+        <header class="header section1">
+
+            <!-- agregar div de titular  -->
+            
+            <section5>
+
+                <div class="texto1">
+                    Sebastian Deportivos
+
+                </div>
+
+                <div class="texto2">
+                    Wheels of Fire
+                </div>
+                
+            </section5>
+
+
+            <!--boton de cotizar-->
+
+            <div2 class="cotizar">
+                <a href="#cotizar">
+                    cotizar ahora
+                    <i class="ri-arrow-down-line flechita"></i>
+                </a>
+            </div2>
+
+
+            
+
+            <div class="rrss">
+                <span>contactame conmigo</span>
+                <ul>
+                    <li>
+
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <i class="ri-instagram-line"></i>
+
+                        </a>
+
+                    </li>
+
+
+                    <li>
+
+                        <a href="https://web.whatsapp.com/" target="_blank">
+                            <i class="ri-whatsapp-line"></i>
+
+                        </a>
+
+                    </li>
+
+
+                    <li>
+
+                        <a href="https://github.com/" target="_blank">
+                            <i class="ri-github-fill"></i>
+
+                        </a>
+
+                    </li>
+                </ul>
+            </div>
+            
+        
+        </header>
+
+        <section class="section section2">
+
+            <!-- agregar div de titular  -->
+
+            <section6>
+
+                <div class="texto3">
+                    Cotizar Web
+
+                </div>
+
+                <div class="texto4">
+                    Recuerda que mientras mas especifico seas en tu explicacion, el presupuesto tendra un costo mas acotado a 
+                    tus necesidades y te lo pondre enviar mas rapido.
+                </div>
+            </section6>
+          
+
+            <form class="formulario" action="enviar.php" method="POST">
+
+                <div>
+                    <label for="nombre">Nombre</label>
+                    <input id="nombre" type="text" name="nombre" placeholder="Ingresa tu nombre">
+                </div>
+
+
+                <div>
+                    <label for="telefono">whatsapp</label>
+                    <input id="telefono" type="tel" name="telefono" placeholder="Tu wsp con codigo de area" required>
+                </div>
+
+
+
+                <div>
+                    <label for="Email">Email</label>
+                    <input id="Email" type="mall" name="email" placeholder="Tu correo electronico" required>
+                </div>
+
+                <div>
+                    <label for="selecciona">selecciona el tipo de web</label>
+
+                    <select name="tipoweb" id="selecciona">
+                        <option value="onepage" selected> one page</option>
+                        <option value="corporativa">corporativa</option>
+                        <option value="ecommerce">e-commerce</option>
+                        <option value="elearning">e-learning</option>
+                        <option value="otro">otro</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="mensaje">mensaje</label>
+                    <textarea name="mensaje" id="mensaje"
+                        placeholder="hablame sobre las secciones de tu pagina"></textarea>
+                </div>
+
+
+                <div>
+                    <label for="boceto">sube un boceto de tu idea</label>
+                    <input type="file" name="boceto">
+                </div>
+
+
+                <input type="submit" value="cotizar">
+
+            </form>
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>
